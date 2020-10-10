@@ -28,7 +28,9 @@ public class ControlStructuresExample2 {
         boolean keepAskingForNumbers = true;
 
         while (keepAskingForNumbers) {
+
             Scanner scanner = new Scanner(System.in);
+
             System.out.print("Digite un número: ");
 
             int x = scanner.nextInt();
@@ -46,7 +48,9 @@ public class ControlStructuresExample2 {
                 } // ELSE ENDS
 
                 System.out.println("F(" + x + ") = " + result);
-            } else {
+
+            }  // IF ENDS
+            else {
                 // Esto se ejecuta si x == 0
                 keepAskingForNumbers = false;
             } // ELSE ENDS
